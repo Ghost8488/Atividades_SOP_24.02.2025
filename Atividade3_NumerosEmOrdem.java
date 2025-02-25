@@ -22,14 +22,14 @@ public class Atividade3_NumerosEmOrdem {
             	  if (N2<N3) { 
             		  System.out.println("A ordem crescente dos números é: "+N1+", "+N2+", "+N3);  }
             	  
-            		  else if (N2<N3) {
+            		  else if (N3<N2) {
             			  System.out.println("A ordem crescente dos números é: "+N1+", "+N3+", "+N2);   }
      	  }
          else if (N2 < N1 && N2 < N3) {
              	  if (N1<N3) { 
     	        	  System.out.println("A ordem crescente dos números é: "+N2+", "+N1+", "+N3);  }
     	  
-    		          else if (N2<N3) {
+    		          else if (N3<N1) {
     			          System.out.println("A ordem crescente dos números é: "+N2+", "+N3+", "+N1);   }
 	     }
          else if (N3 < N1 && N3 < N2) {
